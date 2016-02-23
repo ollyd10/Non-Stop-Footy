@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Non-Stop Football</title>
+	  <meta charset="utf-8" />
+	  <meta name="viewport", content="width=device-width, initial-scale=1 maximum-scale=1"/>
+	  <link rel="stylesheet" href="css/style.css" />
+	  <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+	  <script src="js/jquery-1.11.1.min.js"></script> 
+	  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+	  <link rel="apple-touch-icon" href="image/football.jpg"/>
+	  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+		<div data-role="page" id="one">
+			<div data-role="panel" id="mypanel" class="panel ui-panel-display-overlay" data-display="overlay-right" data-position="right" data-position-fixed="true">
+				<ul class="nav">
+					<a href="index.html" data-transition="none" class="link"><li>Home <img src="image/football.png" class="football img-padding-margin"></li></a>
+					<a href="html/standing.html" data-transition="none" class="link"><li>Standings</li></a>
+					<a href="html/fixtures.html" data-transition="none" class="link"><li>Fixtures</li></a>
+					<a href="#" data-transition="none" class="link"><li>Teams</li></a>
+					<a href="#" data-transition="none" class="link"><li>Players</li></a>
+					<a href="#" data-transition="none" class="link"><li>Favourites</li></a>
+					<a href="#" data-transition="none" class="link"><li>Support</li></a>
+				</ul>
+			</div>	
+			<header data-role="header">
+			<h1><img src="image/football.png" class="football img-padding-margin"> Latest News</h1>
+			<a href="#mypanel" class="ui-btn-right" ><img src="image/menu.png" class="menu img-width img-float-right img-padding-margin"></a>
+			</header>
+			<div>
+				<h3 class="title">BBC Sport</h3>
+				<script src="https://feeds.feedburner.com/co/VZvc?format=sigpro" type="text/javascript" ></script>
+			</div>
+
+			<script src="js/script.js">
+			</script>
+		</div>
+	</body>
+</html>
